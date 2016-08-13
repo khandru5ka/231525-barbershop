@@ -2,12 +2,10 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Средства для ухода</title>
+    <title>Барбершоп Бородинский - Средства для ухода</title>
     <link href="css/style.css" rel="stylesheet">
   </head>
-
   <body>
-
      <header class="main-header">
        <div class="container">
          <nav class="main-navigation">
@@ -17,25 +15,25 @@
            <a href="#">Информация</a>
            <a href="#">Новости</a>
            <a href="#">Прайс-лист</a>
-           <a href="#"Магазин</a>
+           <a class="active-nav">Магазин</a>
            <a href="#">Контакты</a>
         </nav>
-        <div class="user-block"">
+        <div class="user-block">
           <a class="login" href="#">Вход</a>
         </div>
       </div>
     </header>
-
     <main class="container">
       <h1>Средства для ухода</h1>
       <div class="breadcrumbs">
         <a href="#">Главная</a>
         <a href="#">Магазин</a>
-        <a href="#" class="active-breadcrumbs">Средства ухода</a>
+        <a class="active-breadcrumbs">Средства ухода</a>
       </div>
     <div class="right-left">
     <div class="left-column">
       <section class="manufacturers">
+      <form action="#" method="post">
         <h2>Производители:</h2>
         <label>
           Baxter of California<input type="checkbox" name="baxter-calofornia" checked>
@@ -57,14 +55,13 @@
           American Crew<input type="checkbox" name="American Crew" checked>
         </label>
       </section>
-
       <section class="groups-item">
         <h2>Группы товаров:</h2>
         <label>
-      	  Бритвенные принадлежности<input type="radio" name="  groups-item" value="shaving-accessories">
+      	  Бритвенные принадлежности<input type="radio" name="groups-item" value="shaving-accessories">
         </label>
         <label>
-      	  Средства для ухода<input type="radio" name="groups-item"   value="for-care" checked>
+      	  Средства для ухода<input type="radio" name="groups-item" value="for-care" checked>
         </label>
         <label>
       	  Аксессуары<input type="radio" name="groups-item" 
@@ -73,10 +70,10 @@
       </section>
 
       <div class="button">
-    	  <form button type="submit" class="btn" value="Показать">
+    	  <button type="submit" class="btn" value="Показать">Показать</button>
       </div>
+      </form>
     </div>
-
     <div class="central-area">
       <article class="card-product">
         <a href="#" >
@@ -153,26 +150,19 @@
     </div>
     </div>
     </main>
-
   <footer class="main-footer">
       <div class="container">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
           <a href="#">Как нас найти?</a><br>
-          <a href="tel:+7 (812) 666-02-66"> <span class="code">+7 812<span></a> <span class="number">666-02-66</span></a> </a>
+          <a href="tel:+7 (812) 666 02 66"> <span class="telefone-code">+7 812</span><span class="number">666 02 66</span></a>
         </section>
         <section class="footer-social">
           <p>Давайте дружить!</p>
-           <a class="social-btn social-btn-vk btn" href="#">Вконтакте
-          <img src="img/icon-vk.png" width="25" height="16" alt="Вконтакте">
-          </a>
-          <a class="social-btn social-btn-fb btn" href="#">Фейсбук
-          <img src="img/icon-facebook.png" width="12" height="22" alt="Facebook">
-          </a>
-          <a class="social-btn social-btn-inst btn" href="#">Инстаграм
-          <img src="img/icon-insta.png" width="21" height="21" alt="Инстаграм">
-          </a>
+          <a class="social-btn social-btn-vk btn" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb btn" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst btn" href="#">Инстаграм</a>
         </section>
         <section class="footer-copyright">
           <p>Разработано:</p>
@@ -181,5 +171,4 @@
       </div>
   </footer>
   </body>
-
 </html>
